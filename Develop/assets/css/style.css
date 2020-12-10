@@ -46,9 +46,11 @@ a {
     text-decoration: none;
 }
 
+/* Styles the paragraphs */
 p {
     font-size: 16px;
 }
+
 
 .hero {
     height: 800px;
@@ -59,22 +61,36 @@ p {
     background-position: center;
 }
 
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styles the content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styles the sections inside the content section */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styles the benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,57 +102,23 @@ p {
     background-color: #2589bd;
 }
 
+/* Selects the images in the benefits section and applies styling */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Selects the sections in the benefits section and applies styling */
+.benefits section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Selects the h3 elements in the benefits section and applies styling */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
 }
 
 .search-engine-optimization img {
