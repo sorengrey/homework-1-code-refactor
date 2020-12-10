@@ -80,6 +80,17 @@ p {
     margin-left: 20px;
 }
 
+/* Styles the h2 headers in the content section */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styles the images in the content section */
+.content img {
+    max-height: 200px;
+}
+
 /* Styles the sections inside the content section */
 .content section {
     margin-bottom: 20px;
@@ -121,33 +132,7 @@ p {
     text-align: center;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Styles the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -155,6 +140,7 @@ p {
     text-align: center;
 }
 
+/* Styles the h2 headings in the footer */
 .footer h2 {
     font-size: 20px;
 }
